@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Md Ifran Khan - Portfolio</title>
+    <style>
+        /* Reset default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and font settings */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        /* General section styling */
+        .section {
+            padding: 60px 0;
+            background-color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* About Section */
+        #about {
+            background-color: #e4e4e4;
+            text-align: center;
+        }
+
+        #about h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        /* Photo Styling */
+        #about img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        /* Projects Section */
+        #projects {
+            background-color: #f9f9f9;
+        }
+
+        #projects h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .project {
+            margin-bottom: 30px;
+        }
+
+        .project h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: #e4e4e4;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form input,
+        form textarea {
+            padding: 12px;
+            margin-bottom: 20px;
+            width: 80%;
+            max-width: 500px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            padding: 12px 30px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #555;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Md Ifran Khan's Portfolio</h1>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <!-- Replace 'your-photo.jpg' with your actual photo -->
+            <img src="your-photo.jpg" alt="Md Ifran Khan's Photo">
+            <h2>About Me</h2>
+            <p>Assalamu alaikum, I'm Md Ifran Khan, a passionate web developer.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>This is a description of my first project. It is a responsive website built with HTML, CSS, and JavaScript that allows users to interact with real-time data.</p>
+            </div>
+            
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>This is a description of my second project. It is a portfolio website built using HTML, CSS, and JavaScript, and it showcases my skills as a web developer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch with me, feel free to reach out using the contact form below.</p>
+            <p>Phone: 01858392010</p>
+            <p>Email: <a href="mailto:mdifrankhan1234@gmail.com">mdifrankhan1234@gmail.com</a></p>
+            <form action="#" method="POST">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Md Ifran Khan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
